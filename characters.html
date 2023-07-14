@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <title>Star Wars | Characters</title>
+
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Star Wars</h1>
+        <h2>WDD 330 - Final Project</h2>
+
+    </header>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="characters.html">Characters</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+    </nav>
+    <!-- Main Content - Characters Page -->
+    <main>
+        <section>
+            <div class="search">
+                <input type="text" oninput="debounce(main,1000)" class="search-bar" placeholder="Search Characters">
+                <div id="characters"></div>
+                <div class="search-icon-box">
+                    <img class="search-icon" src="images/search-icon.svg">
+                </div>
+            </div>
+        </section>
+        <div class="personal-data">
+            <div class="character-name"></div>
+            <div class="character-details">
+    
+            </p>
+            <div id="personal-info" >
+                <span>
+                    Personal Info
+                </span>
+            </div>
+            <div id="anatomy" >
+                <span>
+                    Anatomy
+                </span>
+            </div>
+        </div>
+    
+        <button onclick="goBack()" class="go-back-btn">Go Back</button>
+    </main>
+    <footer>
+        <p>&copy; WDD 330 | Spring 2023 Final Project | Anelisa Ozolin | All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+    </script>
+</body>
+</html>
