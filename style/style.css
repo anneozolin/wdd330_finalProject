@@ -110,7 +110,6 @@ section {
 
 section,
 .search {
-  width: 100%;
   display: flex;
   background: transparent;
   flex-direction: column;
